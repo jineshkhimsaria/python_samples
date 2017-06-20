@@ -3,7 +3,8 @@ my_set.add("a")
 my_set.add(1)
 my_set.add("b")
 my_set.add(2)
-print("Set - " + my_set)
+print("Set - ")
+print(my_set)
 my_set.add("b")
 print("adding same item in Set, Set removes the duplicate - ")
 print(my_set)
@@ -12,17 +13,20 @@ print("adding same item in Set, Set removes the duplicate - ")
 print(my_set)
 
 my_tuple = (0, 9, "x", "y")
-print("Tuple - " + my_tuple)
+print("Tuple - ")
+print(my_tuple)
 
 my_list = [3, 4, "h", "j"]
-print("List - " + my_list)
+print("List - ")
+print(my_list)
 my_list.append(3)
 my_list.append("j")
 print("Adding same item in List, List keeps on appending the data - ")
 print(my_list)
 
 my_dict = {"a" : 1, "b": 2, 3 : "c"}
-print("Dict - " + my_dict)
+print("Dict - ")
+print(my_dict)
 my_dict[3] = "d"
 print("Adding same key in Dict with different value updates the value of the Key - ")
 print(my_dict)
