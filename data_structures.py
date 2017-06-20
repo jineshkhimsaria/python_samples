@@ -3,35 +3,31 @@ my_set.add("a")
 my_set.add(1)
 my_set.add("b")
 my_set.add(2)
-print("Set ")
-print(my_set)
+print("Set - " + my_set)
 my_set.add("b")
-print("Set add same item ")
+print("adding same item in Set, Set removes the duplicate - ")
 print(my_set)
 my_set.add(2)
-print("Set add same item ")
+print("adding same item in Set, Set removes the duplicate - ")
 print(my_set)
 
 my_tuple = (0, 9, "x", "y")
-print("Tuple ")
-print(my_tuple)
+print("Tuple - " + my_tuple)
 
 my_list = [3, 4, "h", "j"]
-print("List ")
-print(my_list)
+print("List - " + my_list)
 my_list.append(3)
 my_list.append("j")
-print("List add same item ")
+print("Adding same item in List, List keeps on appending the data - ")
 print(my_list)
 
 my_dict = {"a" : 1, "b": 2, 3 : "c"}
-print("Dict ")
-print(my_dict)
+print("Dict - " + my_dict)
 my_dict[3] = "d"
-print("Dict add same key with different value ")
+print("Adding same key in Dict with different value updates the value of the Key - ")
 print(my_dict)
 my_dict["c"] = 3
-print("Dict add swapped key-value ")
+print("Swapping key-value pair will add new key-value commbination in Dict - ")
 print(my_dict)
 
 #List are mutable, ordered data structures
