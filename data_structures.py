@@ -40,7 +40,12 @@ print(my_dict)
 my_dict["c"] = 3
 print("Swapping key-value pair will add new key-value commbination in Dict - ")
 print(my_dict)
+<<<<<<< HEAD
 print("------------------- Program Done ----------------------")
+=======
+print("Conflict")
+print("Testing stash and other commands")
+>>>>>>> master
 
 #List are mutable, ordered data structures
 #Tuples are immutable ordered data structures
