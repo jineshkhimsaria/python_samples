@@ -39,8 +39,12 @@ print("Swapping key-value pair will add new key-value commbination in Dict - ")
 print(my_dict)
 print("------------------- Program Done ----------------------")
 print("Conflict")
+<<<<<<< Updated upstream
 print("Testing stash and other commands")
 
+=======
+print("Stash test")
+>>>>>>> Stashed changes
 #List are mutable, ordered data structures
 #Tuples are immutable ordered data structures
 #Set are unordered, no duplicate
