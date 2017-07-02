@@ -4,8 +4,6 @@ my_set.add(1)
 my_set.add("b")
 my_set.add(2)
 print("-------------------------------------------------- Hello -----------------------------------------------------")
-print("testing")
-print("testing 2")
 print("Sample program related to various data structures in python")
 print("Set - ")
 print(my_set)
@@ -38,13 +36,7 @@ my_dict["c"] = 3
 print("Swapping key-value pair will add new key-value commbination in Dict - ")
 print(my_dict)
 print("------------------- Program Done ----------------------")
-print("Conflict")
-<<<<<<< Updated upstream
-print("Testing stash and other commands")
 
-=======
-print("Stash test")
->>>>>>> Stashed changes
 #List are mutable, ordered data structures
 #Tuples are immutable ordered data structures
 #Set are unordered, no duplicate
