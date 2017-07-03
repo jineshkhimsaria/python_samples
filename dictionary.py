@@ -45,4 +45,3 @@ print (dict1.items())
 print
 print ("--------------- Deleted Dict ----------------")
 del dict1
-print (dict1.items())
